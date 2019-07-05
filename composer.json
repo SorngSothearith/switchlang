@@ -1,0 +1,30 @@
+{
+    "name": "rithdev/package",
+    "type": "composer-plugin",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sorn sothearith",
+            "email": "sorngsothearith619@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Switchlang\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4-dev": {
+            "Switchlang\\": "src/"
+        }
+    },
+    "extra": {
+        "switchlang": {
+            "providers": [
+                "Switchlang\\AppServiceProvider"
+            ]
+        }
+    }
+}
