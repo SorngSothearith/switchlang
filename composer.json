@@ -1,6 +1,6 @@
 {
     "name": "sothearith/switchlang",
-    "type": "composer-plugin",
+    "type": "helper",
     "description": "",
     "license": "MIT",
     "authors": [
